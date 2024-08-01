@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn,
+.bluebtn {
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    background-color: white;
+}
+
+.bluebtn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.btn {
+    color: rgb(117, 117, 117);
+    margin: 0vw 1vw;
+    text-decoration: none;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vw 3vw;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+}
+
+.right .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.right .navbar ul li {
+    list-style: none;
+}
+
+.right .navbar ul li a::after , .login .btn::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #5d5b5b;
+    margin-top: 1vh;
+    display: block;
+    transition: 0.5s;
+}
+
+.right .navbar ul li a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    font-size: larger;
+}
+
+.head .right .navbar li a:hover::after,
+.login :hover::after {
+    width: 100%;
+    color: black;
+}
+.hamburger{
+    display: none;
+}
+/* .selectbox select{
+    display: none;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 2vh;
+    font-size: large;
+    border-radius: 20px;
+} */
+.intro {
+    width: 45%;
+}
+
+.main .intro h1 {
+    font-size: 10vh;
+}
+
+.main .intro p {
+    font-size: xx-large;
+}
+
+.main .intro .bluebtn {
+    margin-top: 15px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.datacontent {
+    background-color: rgb(56, 4, 56);
+    width: fit-content;
+    border-radius: 20px;
+    padding: 2vw;
+    margin: 5vh;
+}
+
+.inputbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 9vh;
+}
+
+.inputbox input {
+    height: 3vh;
+    width: 30vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: larger;
+    color: rgb(209, 209, 209);
+}
+
+.inputbox .bluebtn {
+    margin-left: 2vw;
+    color: white;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mid {
+    background-color: rgb(169, 168, 168);
+}
+
+.stats {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.stats p {
+    color: rgb(117, 117, 117);
+    ;
+}
+
+.cards {
+    padding: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards div {
+    background-color: white;
+    width: 15vw;
+    height: 30vh;
+    padding: 2vw;
+    margin: 0vw 2vw;
+    border-radius: 10px;
+}
+
+.card1 i,
+.card2 i,
+.card3 i {
+    position: relative;
+    bottom: 60px;
+    background-color: rgb(49, 24, 53);
+    padding: 30px 20px 15px 20px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.card2 {
+    position: relative;
+    top: 4vh;
+}
+
+.card3 {
+    position: relative;
+    top: 8vh;
+}
+
+.boost {
+    text-align: center;
+    background-color: rgb(56, 4, 56);
+    padding: 5vh;
+    color: white;
+    font-size: 7vh;
+}
+
+.boost .bluebtn {
+    font-size: large;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5vh;
+    background-color: black;
+}
+
+.foot div>h3,
+.foot .logo {
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.foot ul li {
+    list-style: none;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    line-height: 5vh;
+    color: white;
+}
+
+.foot .media {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.foot .media a {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.foot ul li a:hover {
+    font-weight: bold;
+}
+#top-button{
+    position: fixed;
+    cursor: pointer;
+    bottom: 5px;
+    right: 20px;
+}

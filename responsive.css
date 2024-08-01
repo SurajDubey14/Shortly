@@ -1,0 +1,253 @@
+@media only screen and (max-width: 1060px) {
+    .mobilenav {
+        flex-direction: column;
+        height: 110px;
+        width: 100%;
+        position: absolute;
+        padding: 25px;
+        right: 0;
+        top: 60px;
+        color: azure;
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    }
+    .right .navbar ul li a::after , .login .btn::after {
+        background: #ffffff;
+    }
+    .mobilenav li:hover {
+        color: white;
+        font-weight: bolder;
+        
+    }
+    .right .navbar ul li a {
+        color: rgb(255, 255, 255);
+    }
+    .head {
+        gap: 2vw;
+    }
+
+    .introduction {
+        flex-direction: column;
+        width: fit-content;
+        font-size: xx-small;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+
+    .intro {
+        width: 80%;
+    }
+
+    .main .intro h1 {
+        font-size: 5vh;
+    }
+
+    .main .intro p {
+        padding: 5px 0px 2px 0px;
+        font-size: x-large;
+    }
+    
+    .head {
+        padding-top: 2vh;
+    }
+    .login , .navbar{
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+        position: relative;
+        right: 0%;
+    }
+    .inputbox{
+        flex-direction: column;
+    }
+    .inputbox input {
+        height: 2vh;
+        width: 30vw;
+        padding: 2vw;
+        margin-bottom: 2vw;
+        font-size: large;
+        color: rgb(209, 209, 209);
+    }
+    
+    .inputbox .bluebtn {
+        font-size: large;
+        color: white;
+        padding: 2vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .stats {
+        font-size: x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 10vh;
+    }
+
+    .cards {
+        padding: 0vw 5vw 15vh 5vw;
+        flex-direction: column;
+    }
+
+    .cards div {
+        background-color: white;
+        width: 40vw;
+        padding: 3vh;
+        height: 35vh;
+        margin: 2vw 2vw;
+    }
+
+    .card1 i,
+    .card2 i,
+    .card3 i{
+        position: relative;
+        bottom: 60px;
+        /* padding: 2vh 5vh; */
+    }
+     #top-button {
+        bottom: 25px;
+    }
+
+    .foot {
+        text-align: center;
+        /* flex-wrap: nowrap; */
+        flex-direction: column;
+        font-size: x-large;
+    }
+
+    .foot div {
+        padding: 3vh 0vh;
+    }
+
+    .foot .media i {
+        padding: 0vw 2vw;
+    }
+
+    /* Features */
+    .featuresCard{
+        flex-direction: column;
+    }
+    .featuresCard .card{
+        width: 60vw;
+        height: 30vh;
+        padding: 2vh;
+    }
+    .featuresCard .card h3{
+        margin-top: 20px;
+    }
+    .featuresCard .card p{
+        margin-top: 10px;
+    }
+    .featuresCard .card .btn{
+        margin-top: 25px;
+        color: white;
+        font-size: small;
+    }
+    .features , .container{
+        font-size: larger;
+    }
+    .resources .card img{
+       width : 30vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .head {
+        gap: 2vw;
+        padding-top: 2vh;
+    }
+
+    .introduction {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+    .introduction .bluebtn , .main .intro h1{
+        font-size: x-large;
+    }
+    .intro {
+        width: 100%;
+    }
+
+    /* .main .intro h1 {
+        font-size: x-large;
+    } */
+
+    .main .intro p {
+        font-size: large;
+    }
+    .main aside img{
+        height: 280px;
+    }
+    .login,
+    .navbar {
+        display: none;
+    }
+    .inputbox input {
+        height: 2vh;
+        width:95%;
+        padding: 12px 5px;
+        margin-bottom: 4vw;
+        font-size: large;
+        color: rgb(209, 209, 209);
+    }
+    
+    .inputbox .bluebtn {
+        margin: 2vw 5vw 5vw 0vw;
+        font-size: large;
+        width: 100%;
+        color: white;
+        padding: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .hamburger {
+        display: block;
+        position: relative;
+        right: 0%;
+    }
+    .stats {
+        font-size: x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 10vh;
+    }
+
+    .cards {
+        padding: 0vw 5vw 15vh 5vw;
+        flex-direction: column;
+    }
+
+    .cards div {
+        background-color: white;
+        width: 45vw;
+        padding: 3vh;
+        height: 40vh;
+        margin: 2vw 2vw;
+    }
+    .cards div p{
+        width: 50vw;
+    }
+    .card1 i,
+    .card2 i,
+    .card3 i{
+        position: relative;
+        bottom: 45px;
+        /* padding: 2vh 5vh; */
+    }
+    .foot {
+        text-align: center;
+        /* flex-wrap: nowrap; */
+        flex-direction: column;
+        font-size: x-large;
+    }
+
+    .foot div {
+        padding: 3vh 0vh;
+    }
+
+    .foot .media i {
+        padding: 0vw 2vw;
+    }
+
+    .foot h3 {
+        font-size: x-large;
+    }
+}
